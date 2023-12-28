@@ -110,3 +110,64 @@ h1{
     color: #1f2937;
     font-size: 16px;
 }
+
+.quote{
+    background-color:#E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 100px 300px 100px 300px;
+    gap: 30px;
+}
+
+.quote blockquote{
+    text-align: left;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    align-self: center;
+}
+
+.quote cite{
+    text-align: right;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+.call-to-action{
+    background-color: #3882F6;
+    border-radius: 10px;
+    display: flex;
+    margin: 100px 180px 100px 180px;
+    height: 50px;
+    padding: 50px 60px 50px 60px;
+    justify-content: space-around;
+    color: #F9FAF8;
+    gap: 30px;
+}
+
+.right-cta{
+    display: flex;
+    align-items: center;
+}
+
+.right-cta button{
+    background-color: #3882F6;
+    border: none;
+    border: 2px solid #F9FAF8;
+    border-radius: 7px;
+    color: #F9FAF8;
+    padding: 8px 30px 8px 30px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+
+.footer{
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    height: 100px;
+}
